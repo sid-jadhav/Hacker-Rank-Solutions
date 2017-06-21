@@ -1,0 +1,15 @@
+{
+	"AdvanceCources": {
+		"Java": "2Years",
+		"Selenium": "15Months",
+		"King": "life time"
+	},
+	"RollNo": "11712",
+	"name": "Siddhesh",
+	"Courses": [
+		"REST",
+		"JAVA",
+		"Cucumber",
+		"Selenium"
+	]
+}
