@@ -55,7 +55,7 @@ public class Excel_reader {
 		String path="C:\\Users\\LENOVO\\git\\Hacker-Rank-Solution\\JavaPractice\\target\\sid.xlsx";
 		Excel_reader read=new Excel_reader(path);
 		String s=read.getCellData("Sheet1","A", 1);
-		System.out.println(s+" "+read.getCellData("Sheet1","A", 2)+" "+read.getCellData("Sheet1","A", 3));
+		System.out.println(s+" "+read.getCellData("Sheet1","B", 2)+" "+read.getCellData("Sheet1","A", 3));
 		//System.out.println(System.getProperty("C:\\Users\\LENOVO\\git\\Hacker-Rank-Solution\\JavaPractice\\target\\sid.xlsx"));
 		//System.out.println(System.getProperty("user.dir"));
 	}
