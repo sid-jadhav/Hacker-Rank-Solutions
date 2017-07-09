@@ -26,7 +26,7 @@ public class Excel_reader {
 		}
 	}
 	
-	public String getCellData(String sheetName, String colnum, int rownum){
+	public Object getCellData(String sheetName, String colnum, int rownum){
 		int index =workbook.getSheetIndex(sheetName);
 		int col_num=0;
 		sheet=workbook.getSheetAt(index);
@@ -54,8 +54,8 @@ public class Excel_reader {
 	public static void main(String[] args){
 		String path="C:\\Users\\LENOVO\\git\\Hacker-Rank-Solution\\JavaPractice\\target\\sid.xlsx";
 		Excel_reader read=new Excel_reader(path);
-		String s=read.getCellData("Sheet1","A", 1);
-		System.out.println(s+" "+read.getCellData("Sheet1","B", 2)+" "+read.getCellData("Sheet1","A", 3));
+		Object s=read.getCellData("Sheet1","A", 1);
+		System.out.println(s+" "+read.getCellData("Sheet1","bbb1", 2)+" "+read.getCellData("Sheet1","A", 3));
 		//System.out.println(System.getProperty("C:\\Users\\LENOVO\\git\\Hacker-Rank-Solution\\JavaPractice\\target\\sid.xlsx"));
 		//System.out.println(System.getProperty("user.dir"));
 	}
