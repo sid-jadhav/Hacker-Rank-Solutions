@@ -20,9 +20,9 @@ public class ReadingExpt {
 			System.out.println(wb.getActiveSheetIndex());
 			XSSFSheet ws= wb.getSheetAt(0);
 			System.out.println(ws.getActiveCell());
-			XSSFRow row=ws.getRow(0);
+			XSSFRow row=ws.getRow(1);
 			System.out.println(row.getRowNum());
-			XSSFCell cell= row.getCell(0);
+			XSSFCell cell= row.getCell(2);
 			System.out.println(cell.getStringCellValue());		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
